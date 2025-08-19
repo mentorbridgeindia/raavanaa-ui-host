@@ -9,7 +9,7 @@ export default defineConfig({
     federation({
       name: "host-app",
       remotes: {
-        UIComponents: "http://localhost:5174/assets/remoteEntry.js",
+        UIComponents: "https://raavanaa-ui-ui-components.vercel.app/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
